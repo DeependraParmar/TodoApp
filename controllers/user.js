@@ -75,7 +75,7 @@ export const userLogin = async (req, res,next) => {
 export const getMyProfile =  (req, res) => {
     return res.status(200).json({
         success: true,
-        user: req.user
+        user: req.user,
     });
 
 };
